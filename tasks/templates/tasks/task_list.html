@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tasks list</title>
+    </head>
+    <body>
+        <h1>Task list</h1>
+        <ul>
+            {% for task in tasks %}
+                <li>{{ task.title }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'tasks:create' %}">Create new task</a>
+    </body>
+</html>
+
