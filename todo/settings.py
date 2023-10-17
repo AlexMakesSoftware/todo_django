@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['poc-ranch-577.int.sce.network']
+CSRF_TRUSTED_ORIGINS = ['https://poc-ranch-577.int.sce.network']
 
 
 ROOT_URLCONF = 'todo.urls'
