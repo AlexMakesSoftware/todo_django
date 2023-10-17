@@ -37,5 +37,3 @@ Once you've installed this app locally and set up your reverse proxy to it, you 
 ./run_prod.sh
 ```
 Of course, you can install it as a service, or just run it in the background - it's up to you.
-
-~~THIS IS A CHANGE!~~
