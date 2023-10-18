@@ -1,5 +1,7 @@
 # README.md
 
+Test app for my CI/CD project (Pull N Pray).
+
 ## First time setup
 Before you begin, create a python virtual environment.
 
