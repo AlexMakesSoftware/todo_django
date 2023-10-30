@@ -1,6 +1,10 @@
 # README.md
+
+Test app for my CI/CD project (Pull N Pray).
+
 ## Code quality
 I've started using pre-commit.com as a means to check formatting, etc, automatically.
+
 ## First time setup
 Before you begin, create a python virtual environment.
 

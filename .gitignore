@@ -1,3 +1,6 @@
+# Virtual environments
+.venv
+
 # specific to installation.
 gunicorn_config.py
 

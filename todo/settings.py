@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['poc-ranch-577.int.sce.network']
+CSRF_TRUSTED_ORIGINS = ['https://poc-ranch-577.int.sce.network']
 
 
 ROOT_URLCONF = 'todo.urls'
@@ -110,7 +110,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
-STATIC_URL = '~/static/'
+STATIC_URL = 'var/www/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
