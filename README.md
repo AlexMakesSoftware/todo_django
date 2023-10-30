@@ -34,6 +34,8 @@ Python Path needs to point to your django project.
 
 pythonpath = '~/dev/todo'
 
+
+## Environmental config
 You should generate a secret key and put it in a file in the root of the project called '.env', like so:
 SECRET_KEY = '<your key value here>'
 
@@ -41,6 +43,13 @@ There are various ways to generate this value, I suggest:
 ```
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```
+
+Set this to whatever your domain name is:
+MY_HOST = "my-app.example.com"
+
+I suggest this for the static assets folder, but you can use whatever you like:
+STATIC_ASSETS_FOLDER = "var/www/static/"
+
 Don't source control '.env'! - this is are your environment-specific (and secret) settings.
 
 
