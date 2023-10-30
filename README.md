@@ -30,6 +30,16 @@ Python Path needs to point to your django project.
 
 pythonpath = '~/dev/todo'
 
+You should generate a secret key and put it in a file in the root of the project called '.env', like so:
+SECRET_KEY = '<your key value here>'
+
+There are various ways to generate this value, I suggest:
+```
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+```
+Don't source control '.env'! - this is are your environment-specific (and secret) settings.
+
+
 ## Running
 
 Once you've installed this app locally and set up your reverse proxy to it, you should be able to access it with:
