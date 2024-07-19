@@ -1,6 +1,6 @@
 # README.md
 
-Test app for my CI/CD project (Pull N Pray).
+Test app for my CI/CD project (Pull N Pray). This was based on a training/presentation I gave at work called 'a quick intro to Django', which I've included in this project.
 
 ## First time setup
 Before you begin, create a python virtual environment.
